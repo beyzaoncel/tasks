@@ -1,0 +1,44 @@
+.row{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+    background: white;
+	color: #3a3a98;
+    transition:0.3s;
+    padding-top: 220px;
+    position: relative;
+    margin: auto;
+   
+}
+.row :hover{
+    background: #3a3a98;
+	color: white;
+    transition:0.3s;
+}
+.card{
+    background: rgb(255, 255, 255);
+    padding: 1.5rem;
+    border: solid 1px #ddd;
+    border-radius: 20px;
+    flex-basis: 247px;
+    display: inline;
+    flex-shrink: 0;
+    position: relative;
+    margin: auto;
+    
+    
+}
+
+
+.card img{
+   margin: auto;
+   display: block;
+    
+}
+
+.card p{
+    
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
